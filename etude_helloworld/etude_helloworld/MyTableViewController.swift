@@ -37,11 +37,17 @@ class MyTableViewController: UITableViewController {
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-
+        let name = self.names[indexPath.row]
         cell.textLabel?.text = self.names[indexPath.row]
         cell.detailTextLabel?.text = "IG College"
+        cell.imageView?.image = UIImage(named: name)
+        
         return cell
     }
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 90
+    }
+    
     /**/
 
     /*

@@ -52,39 +52,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="screen_background" translatesAutoresizingMaskIntoConstraints="NO" id="xl7-ME-dkE">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="screen_background" translatesAutoresizingMaskIntoConstraints="NO" id="xl7-ME-dkE">
                                 <rect key="frame" x="-375" y="-812" width="1125" height="2436"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j02-P4-gDd">
-                                <rect key="frame" x="51" y="315" width="119" height="98"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PCe-jf-aFP" userLabel="backgroundButtonView">
+                                <rect key="frame" x="63.666666666666643" y="357" width="248" height="98"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gd5-vt-ajU">
+                                        <rect key="frame" x="129" y="0.0" width="119" height="98"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="119" id="cpe-wW-Zkv"/>
+                                            <constraint firstAttribute="height" constant="98" id="z50-7W-ZlD"/>
+                                        </constraints>
+                                        <state key="normal" backgroundImage="botaoFemme"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="119" id="AoG-io-esY"/>
-                                    <constraint firstAttribute="height" constant="98" id="sGt-mO-PqM"/>
+                                    <constraint firstAttribute="trailing" secondItem="Gd5-vt-ajU" secondAttribute="trailing" id="GIM-TG-hEb"/>
+                                    <constraint firstItem="Gd5-vt-ajU" firstAttribute="top" secondItem="PCe-jf-aFP" secondAttribute="top" id="Jwg-uZ-LyF"/>
+                                    <constraint firstAttribute="height" constant="98" id="UPt-ve-2K1"/>
+                                    <constraint firstAttribute="width" constant="248" id="Z1D-as-G1J"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j02-P4-gDd">
+                                <rect key="frame" x="91" y="319" width="119" height="98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="B0n-44-bYn"/>
+                                    <constraint firstAttribute="height" constant="98" id="DPm-9F-RNr"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="botaoHome"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gd5-vt-ajU">
-                                <rect key="frame" x="205" y="315" width="119" height="98"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="119" id="AuD-YK-078"/>
-                                    <constraint firstAttribute="height" constant="98" id="REV-Tf-mUY"/>
-                                </constraints>
-                                <state key="normal" backgroundImage="botaoFemme"/>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="nCF-fz-zWO" firstAttribute="bottom" secondItem="Gd5-vt-ajU" secondAttribute="bottom" constant="365" id="5js-JZ-8pi"/>
-                            <constraint firstItem="j02-P4-gDd" firstAttribute="leading" secondItem="nCF-fz-zWO" secondAttribute="leading" constant="51" id="7fg-kA-ofq"/>
-                            <constraint firstItem="nCF-fz-zWO" firstAttribute="trailing" secondItem="Gd5-vt-ajU" secondAttribute="trailing" constant="51" id="93r-ve-aPW"/>
-                            <constraint firstItem="xl7-ME-dkE" firstAttribute="centerX" secondItem="Y3p-qF-taL" secondAttribute="centerX" id="CeP-uk-xbb"/>
-                            <constraint firstItem="Gd5-vt-ajU" firstAttribute="leading" secondItem="j02-P4-gDd" secondAttribute="trailing" constant="35" id="HNn-wq-dDb"/>
-                            <constraint firstItem="j02-P4-gDd" firstAttribute="top" secondItem="nCF-fz-zWO" secondAttribute="top" constant="271" id="J78-0K-L4I"/>
-                            <constraint firstItem="Gd5-vt-ajU" firstAttribute="leading" secondItem="j02-P4-gDd" secondAttribute="trailing" constant="35" id="Prc-3w-maF"/>
-                            <constraint firstItem="xl7-ME-dkE" firstAttribute="centerY" secondItem="Y3p-qF-taL" secondAttribute="centerY" id="lVQ-mV-USf"/>
-                            <constraint firstItem="nCF-fz-zWO" firstAttribute="bottom" secondItem="j02-P4-gDd" secondAttribute="bottom" constant="365" id="plH-bO-kk9"/>
-                            <constraint firstItem="Gd5-vt-ajU" firstAttribute="top" secondItem="nCF-fz-zWO" secondAttribute="top" constant="271" id="rdm-1E-TqF"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nCF-fz-zWO"/>
                     </view>
                 </viewController>

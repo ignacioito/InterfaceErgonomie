@@ -10,41 +10,6 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ItoIgnacioAutomne2018" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bakcground_demarrage" highlightedImage="bakcground_demarrage" translatesAutoresizingMaskIntoConstraints="NO" id="RPq-OY-Nty">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_demarrage" translatesAutoresizingMaskIntoConstraints="NO" id="EvP-6C-yC6">
-                                <rect key="frame" x="87.666666666666686" y="327.66666666666669" width="200" height="157"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="8PT-6a-Wfd"/>
-                                    <constraint firstAttribute="height" constant="157" id="z0q-AA-Vxo"/>
-                                </constraints>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="RPq-OY-Nty" secondAttribute="bottom" id="39y-HA-URi"/>
-                            <constraint firstItem="RPq-OY-Nty" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="3RN-1D-dNr"/>
-                            <constraint firstItem="EvP-6C-yC6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="T78-X8-c7B"/>
-                            <constraint firstItem="RPq-OY-Nty" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="hk0-FK-ZVt"/>
-                            <constraint firstItem="EvP-6C-yC6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="je8-my-H3N"/>
-                            <constraint firstItem="RPq-OY-Nty" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="rYN-Uu-Y36"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="37.681159420289859" y="18.75"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="Kwy-sg-pRz">
             <objects>
                 <viewController id="PcD-Tk-2Nd" sceneMemberID="viewController">
@@ -95,10 +60,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bakcground_demarrage" width="828" height="1792"/>
         <image name="botaoFemme" width="384" height="356"/>
         <image name="botaoHome" width="384" height="356"/>
-        <image name="logo_demarrage" width="400" height="371"/>
         <image name="screen_background" width="1125" height="2436"/>
     </resources>
 </document>

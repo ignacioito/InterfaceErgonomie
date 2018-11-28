@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B627FB621AE22260043EB63 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B627FB521AE22260043EB63 /* HomeViewController.swift */; };
+		9B627FB821AE2B2F0043EB63 /* PageHautBasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B627FB721AE2B2F0043EB63 /* PageHautBasViewController.swift */; };
 		9B7E3D1221A4CFD000F4541F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7E3D1121A4CFD000F4541F /* AppDelegate.swift */; };
 		9B7E3D1421A4CFD000F4541F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7E3D1321A4CFD000F4541F /* ViewController.swift */; };
 		9B7E3D1721A4CFD000F4541F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7E3D1521A4CFD000F4541F /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B627FB521AE22260043EB63 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9B627FB721AE2B2F0043EB63 /* PageHautBasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageHautBasViewController.swift; sourceTree = "<group>"; };
 		9B7E3D0E21A4CFD000F4541F /* ItoIgnacioAutomne2018.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItoIgnacioAutomne2018.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7E3D1121A4CFD000F4541F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B7E3D1321A4CFD000F4541F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +104,8 @@
 				9B7E3D1121A4CFD000F4541F /* AppDelegate.swift */,
 				9B7E3D1321A4CFD000F4541F /* ViewController.swift */,
 				9B7E3D1521A4CFD000F4541F /* Main.storyboard */,
+				9B627FB721AE2B2F0043EB63 /* PageHautBasViewController.swift */,
+				9B627FB521AE22260043EB63 /* HomeViewController.swift */,
 				9B7E3D1821A4CFDA00F4541F /* Assets.xcassets */,
 				9B7E3D1A21A4CFDA00F4541F /* LaunchScreen.storyboard */,
 				9B7E3D1D21A4CFDA00F4541F /* Info.plist */,
@@ -258,6 +264,8 @@
 			files = (
 				9B7E3D1421A4CFD000F4541F /* ViewController.swift in Sources */,
 				9B7E3D1221A4CFD000F4541F /* AppDelegate.swift in Sources */,
+				9B627FB821AE2B2F0043EB63 /* PageHautBasViewController.swift in Sources */,
+				9B627FB621AE22260043EB63 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -25,6 +25,8 @@ class PageHautBasViewController: UIViewController {
     
     @IBOutlet weak var tx04: UITextField!
     
+    var selectedExoDic = [String: String]()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         resetTextFields()
@@ -32,6 +34,25 @@ class PageHautBasViewController: UIViewController {
         let tapGesture = UITapGestureRecognizer(target: self, action: #selector(dissmissKeyboard))
         
         self.view.addGestureRecognizer(tapGesture)
+        
+    }
+    
+    func buildData() {
+        guard let serie = lb01.text else {  return }
+        guard let serieValue = tx01.text else { return}
+        selectedExoDic[serie] = serieValue
+        
+        guard let repetition = lb02.text else {  return }
+        guard let repetitionValue = tx02.text else { return}
+        selectedExoDic[repetition] = repetitionValue
+        
+        guard let poids = lb03.text else {  return }
+        guard let poidsValue = tx03.text else { return}
+        selectedExoDic[poids] = poidsValue
+        
+        guard let temps = lb03.text else {  return }
+        guard let tempsValue = tx04.text else { return}
+        selectedExoDic[temps] = tempsValue
         
     }
     

@@ -72,16 +72,19 @@ class PageHautBasViewController: UIViewController {
         self.view.endEditing(true)
     }
     
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        guard let identifier = segue.identifier else { return }
+        guard let destinationVC = segue.destination as? plano5ViewController else { return  }
+        destinationVC.dataDic = selectedExoDic
     }
-    */
+    
     @IBAction func validation(_ sender: Any) {
+        buildData()
+        print("ValidationAction : ", selectedExoDic.count)
     }
     
 }

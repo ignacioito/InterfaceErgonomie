@@ -1,5 +1,5 @@
 //
-//  TabelaFenetreViewController.swift
+//  ViewController.swift
 //  ItoIgnacioAutomne2018
 //
 //  Created by eleves on 18-12-04.
@@ -8,18 +8,15 @@
 
 import UIKit
 
-class TabelaFenetreViewController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print("apres: ", dataDic.count)
+        // Do any additional setup after loading the view.
     }
     
-    override func didReceiveMemoryWarning(){
-        super.didReceiveMemoryWarning()
-        //Dispose of any resources that can be receive
-    }
+
     /*
     // MARK: - Navigation
 

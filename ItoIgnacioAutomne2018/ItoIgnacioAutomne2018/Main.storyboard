@@ -230,54 +230,6 @@
                                     <segue destination="ani-dW-Zmm" kind="show" id="9qI-mw-hLq"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_bloco_exercicios" translatesAutoresizingMaskIntoConstraints="NO" id="TKN-XB-duD">
-                                <rect key="frame" x="47" y="136" width="320" height="439"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_exercice" translatesAutoresizingMaskIntoConstraints="NO" id="LLS-cF-nPn">
-                                <rect key="frame" x="49" y="140" width="97" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_exercice" translatesAutoresizingMaskIntoConstraints="NO" id="Hpw-aN-b4g">
-                                <rect key="frame" x="49" y="227" width="97" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_exercice" translatesAutoresizingMaskIntoConstraints="NO" id="vzM-r0-LwZ">
-                                <rect key="frame" x="49" y="314" width="97" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_exercice" translatesAutoresizingMaskIntoConstraints="NO" id="h0X-gH-knj">
-                                <rect key="frame" x="49" y="401" width="97" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_exercice" translatesAutoresizingMaskIntoConstraints="NO" id="YyB-WW-BMZ">
-                                <rect key="frame" x="49" y="488" width="97" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_description_exercices" translatesAutoresizingMaskIntoConstraints="NO" id="cWQ-Rg-do7">
-                                <rect key="frame" x="145" y="140" width="220" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_description_exercices" translatesAutoresizingMaskIntoConstraints="NO" id="G0n-uS-is4">
-                                <rect key="frame" x="145" y="227" width="220" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_description_exercices" translatesAutoresizingMaskIntoConstraints="NO" id="PI5-PV-Tj3">
-                                <rect key="frame" x="145" y="314" width="220" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_description_exercices" translatesAutoresizingMaskIntoConstraints="NO" id="SJW-a9-eHE">
-                                <rect key="frame" x="145" y="401" width="220" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_description_exercices" translatesAutoresizingMaskIntoConstraints="NO" id="h2o-Xr-eQ1">
-                                <rect key="frame" x="145" y="488" width="220" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconexercice1" translatesAutoresizingMaskIntoConstraints="NO" id="yWp-0s-4Ye">
-                                <rect key="frame" x="57" y="154" width="80" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rodape" translatesAutoresizingMaskIntoConstraints="NO" id="bim-vr-MO1">
                                 <rect key="frame" x="0.0" y="770" width="414" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -288,7 +240,7 @@
                                 <state key="normal" image="button_back"/>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="82" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="osP-uz-z2O">
-                                <rect key="frame" x="109" y="140" width="316" height="435"/>
+                                <rect key="frame" x="49" y="152" width="316" height="435"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
@@ -1019,15 +971,12 @@
         <image name="EXERCICESHAUT" width="150" height="12"/>
         <image name="background_bloco_exercicios" width="320" height="439"/>
         <image name="background_fenetre" width="76" height="151"/>
-        <image name="bloque_description_exercices" width="220" height="85"/>
-        <image name="bloque_exercice" width="97" height="85"/>
         <image name="boutom-bas" width="150" height="138"/>
         <image name="boutom-haut" width="150" height="138"/>
         <image name="button_back" width="40" height="40"/>
         <image name="button_salvegarder" width="224" height="95"/>
         <image name="femme-boutom" width="150" height="138"/>
         <image name="homme-boutom" width="150" height="138"/>
-        <image name="iconexercice1" width="80" height="56"/>
         <image name="image_grande" width="250" height="437"/>
         <image name="rodape" width="414" height="46"/>
     </resources>

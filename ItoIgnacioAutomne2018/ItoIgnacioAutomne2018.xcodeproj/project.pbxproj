@@ -16,6 +16,15 @@
 		9B7E3D1C21A4CFDA00F4541F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7E3D1A21A4CFDA00F4541F /* LaunchScreen.storyboard */; };
 		9B7E3D2721A4CFDA00F4541F /* ItoIgnacioAutomne2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7E3D2621A4CFDA00F4541F /* ItoIgnacioAutomne2018Tests.swift */; };
 		9B7E3D3221A4CFDA00F4541F /* ItoIgnacioAutomne2018UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7E3D3121A4CFDA00F4541F /* ItoIgnacioAutomne2018UITests.swift */; };
+		9BFD7FCC21B73EF6002C30F6 /* SFSportsNight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD7FCB21B73EEA002C30F6 /* SFSportsNight.ttf */; };
+		9BFD7FCD21B73EF6002C30F6 /* SFSportsNightAlternate.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD7FCA21B73E4A002C30F6 /* SFSportsNightAlternate.ttf */; };
+		9BFD7FCE21B73EF6002C30F6 /* SFSportsNightAltUpright.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD7FC821B73E4A002C30F6 /* SFSportsNightAltUpright.ttf */; };
+		9BFD7FCF21B73EF6002C30F6 /* SFSportsNightNS.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD7FC421B73E49002C30F6 /* SFSportsNightNS.ttf */; };
+		9BFD7FD021B73EF6002C30F6 /* SFSportsNightNSAlternate.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD7FC521B73E49002C30F6 /* SFSportsNightNSAlternate.ttf */; };
+		9BFD7FD121B73EF6002C30F6 /* SFSportsNightNSAltUpright.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD7FC621B73E49002C30F6 /* SFSportsNightNSAltUpright.ttf */; };
+		9BFD7FD221B73EF6002C30F6 /* SFSportsNightNSUpright.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD7FC921B73E4A002C30F6 /* SFSportsNightNSUpright.ttf */; };
+		9BFD7FD321B73EF6002C30F6 /* SFSportsNightUpright.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9BFD7FC721B73E4A002C30F6 /* SFSportsNightUpright.ttf */; };
+		9BFD7FD721B7454E002C30F6 /* TabelaFenetreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BFD7FD621B7454E002C30F6 /* TabelaFenetreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		9B7E3D2D21A4CFDA00F4541F /* ItoIgnacioAutomne2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItoIgnacioAutomne2018UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7E3D3121A4CFDA00F4541F /* ItoIgnacioAutomne2018UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItoIgnacioAutomne2018UITests.swift; sourceTree = "<group>"; };
 		9B7E3D3321A4CFDA00F4541F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BFD7FC421B73E49002C30F6 /* SFSportsNightNS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightNS.ttf; sourceTree = "<group>"; };
+		9BFD7FC521B73E49002C30F6 /* SFSportsNightNSAlternate.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightNSAlternate.ttf; sourceTree = "<group>"; };
+		9BFD7FC621B73E49002C30F6 /* SFSportsNightNSAltUpright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightNSAltUpright.ttf; sourceTree = "<group>"; };
+		9BFD7FC721B73E4A002C30F6 /* SFSportsNightUpright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightUpright.ttf; sourceTree = "<group>"; };
+		9BFD7FC821B73E4A002C30F6 /* SFSportsNightAltUpright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightAltUpright.ttf; sourceTree = "<group>"; };
+		9BFD7FC921B73E4A002C30F6 /* SFSportsNightNSUpright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightNSUpright.ttf; sourceTree = "<group>"; };
+		9BFD7FCA21B73E4A002C30F6 /* SFSportsNightAlternate.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightAlternate.ttf; sourceTree = "<group>"; };
+		9BFD7FCB21B73EEA002C30F6 /* SFSportsNight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNight.ttf; sourceTree = "<group>"; };
+		9BFD7FD621B7454E002C30F6 /* TabelaFenetreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabelaFenetreViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +122,10 @@
 				9B7E3D1121A4CFD000F4541F /* AppDelegate.swift */,
 				9B7E3D1321A4CFD000F4541F /* ViewController.swift */,
 				9B7E3D1521A4CFD000F4541F /* Main.storyboard */,
+				9BFD7FC321B73E34002C30F6 /* Fonts */,
 				9B627FB721AE2B2F0043EB63 /* PageHautBasViewController.swift */,
 				9B627FB521AE22260043EB63 /* HomeViewController.swift */,
+				9BFD7FD621B7454E002C30F6 /* TabelaFenetreViewController.swift */,
 				9B7E3D1821A4CFDA00F4541F /* Assets.xcassets */,
 				9B7E3D1A21A4CFDA00F4541F /* LaunchScreen.storyboard */,
 				9B7E3D1D21A4CFDA00F4541F /* Info.plist */,
@@ -129,6 +149,21 @@
 				9B7E3D3321A4CFDA00F4541F /* Info.plist */,
 			);
 			path = ItoIgnacioAutomne2018UITests;
+			sourceTree = "<group>";
+		};
+		9BFD7FC321B73E34002C30F6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9BFD7FCB21B73EEA002C30F6 /* SFSportsNight.ttf */,
+				9BFD7FCA21B73E4A002C30F6 /* SFSportsNightAlternate.ttf */,
+				9BFD7FC821B73E4A002C30F6 /* SFSportsNightAltUpright.ttf */,
+				9BFD7FC421B73E49002C30F6 /* SFSportsNightNS.ttf */,
+				9BFD7FC521B73E49002C30F6 /* SFSportsNightNSAlternate.ttf */,
+				9BFD7FC621B73E49002C30F6 /* SFSportsNightNSAltUpright.ttf */,
+				9BFD7FC921B73E4A002C30F6 /* SFSportsNightNSUpright.ttf */,
+				9BFD7FC721B73E4A002C30F6 /* SFSportsNightUpright.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +270,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFD7FD221B73EF6002C30F6 /* SFSportsNightNSUpright.ttf in Resources */,
 				9B7E3D1C21A4CFDA00F4541F /* LaunchScreen.storyboard in Resources */,
+				9BFD7FD121B73EF6002C30F6 /* SFSportsNightNSAltUpright.ttf in Resources */,
+				9BFD7FCD21B73EF6002C30F6 /* SFSportsNightAlternate.ttf in Resources */,
 				9B7E3D1921A4CFDA00F4541F /* Assets.xcassets in Resources */,
+				9BFD7FCE21B73EF6002C30F6 /* SFSportsNightAltUpright.ttf in Resources */,
 				9B7E3D1721A4CFD000F4541F /* Main.storyboard in Resources */,
+				9BFD7FCF21B73EF6002C30F6 /* SFSportsNightNS.ttf in Resources */,
+				9BFD7FCC21B73EF6002C30F6 /* SFSportsNight.ttf in Resources */,
+				9BFD7FD321B73EF6002C30F6 /* SFSportsNightUpright.ttf in Resources */,
+				9BFD7FD021B73EF6002C30F6 /* SFSportsNightNSAlternate.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9BFD7FD721B7454E002C30F6 /* TabelaFenetreViewController.swift in Sources */,
 				9B7E3D1421A4CFD000F4541F /* ViewController.swift in Sources */,
 				9B7E3D1221A4CFD000F4541F /* AppDelegate.swift in Sources */,
 				9B627FB821AE2B2F0043EB63 /* PageHautBasViewController.swift in Sources */,

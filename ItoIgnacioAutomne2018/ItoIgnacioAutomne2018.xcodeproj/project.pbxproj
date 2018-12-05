@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B5FE74821B777AF001D3B29 /* ItoIgnacioAutomne2018.app in Resources */ = {isa = PBXBuildFile; fileRef = 9B7E3D0E21A4CFD000F4541F /* ItoIgnacioAutomne2018.app */; };
+		9B5FE74B21B777BC001D3B29 /* ItoIgnacioAutomne2018UITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 9B7E3D2D21A4CFDA00F4541F /* ItoIgnacioAutomne2018UITests.xctest */; };
 		9B627FB621AE22260043EB63 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B627FB521AE22260043EB63 /* HomeViewController.swift */; };
 		9B627FB821AE2B2F0043EB63 /* PageHautBasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B627FB721AE2B2F0043EB63 /* PageHautBasViewController.swift */; };
 		9B7E3D1221A4CFD000F4541F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7E3D1121A4CFD000F4541F /* AppDelegate.swift */; };
@@ -275,6 +277,7 @@
 			files = (
 				9BFD7FD221B73EF6002C30F6 /* SFSportsNightNSUpright.ttf in Resources */,
 				9B7E3D1C21A4CFDA00F4541F /* LaunchScreen.storyboard in Resources */,
+				9B5FE74821B777AF001D3B29 /* ItoIgnacioAutomne2018.app in Resources */,
 				9BFD7FD121B73EF6002C30F6 /* SFSportsNightNSAltUpright.ttf in Resources */,
 				9BFD7FCD21B73EF6002C30F6 /* SFSportsNightAlternate.ttf in Resources */,
 				9B7E3D1921A4CFDA00F4541F /* Assets.xcassets in Resources */,
@@ -298,6 +301,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B5FE74B21B777BC001D3B29 /* ItoIgnacioAutomne2018UITests.xctest in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +484,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ItoIgnacioAutomne2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -488,6 +494,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = grasset.ItoIgnacioAutomne2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -497,7 +504,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ItoIgnacioAutomne2018/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -505,6 +514,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = grasset.ItoIgnacioAutomne2018;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -251,7 +251,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="316" height="81.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Id2-C9-IET">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconexercice1" translatesAutoresizingMaskIntoConstraints="NO" id="Id2-C9-IET">
                                                     <rect key="frame" x="16" y="3" width="75" height="75"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -379,7 +379,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="316" height="81.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mIT-Qd-0rI">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconexercice2" translatesAutoresizingMaskIntoConstraints="NO" id="mIT-Qd-0rI">
                                                     <rect key="frame" x="16" y="3" width="75" height="75"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -925,13 +925,6 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Soulevez les poids verticalement en ne déplaçant que les épaules" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nYU-Cj-fNm">
-                                <rect key="frame" x="49" y="656" width="316" height="66"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rodape" translatesAutoresizingMaskIntoConstraints="NO" id="4cI-Pw-f7r">
                                 <rect key="frame" x="0.0" y="770" width="414" height="46"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -940,6 +933,13 @@
                                 <rect key="frame" x="187" y="773" width="40" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="lQM-PP-5bd">
+                                <rect key="frame" x="87" y="637" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Soulevez les poids verticalement en ne déplaçant que les épaules Soulevez les poids verticalement en ne déplaçant que les épaulesSoulevez les poids verticalement en ne déplaçant que les épaulesSoulevez les poids verticalement en ne déplaçant que les épaules</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="4qs-j9-EZG"/>
@@ -948,21 +948,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SNU-gy-w1U" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2744.9275362318845" y="16.741071428571427"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="55K-DM-yPD">
-            <objects>
-                <viewController id="WXH-rI-L3i" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="OnN-uE-aOd">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="lSu-lr-nA5"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zYU-gD-IiB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3447.826086956522" y="16.741071428571427"/>
         </scene>
     </scenes>
     <resources>
@@ -977,6 +962,8 @@
         <image name="button_salvegarder" width="224" height="95"/>
         <image name="femme-boutom" width="150" height="138"/>
         <image name="homme-boutom" width="150" height="138"/>
+        <image name="iconexercice1" width="70" height="49"/>
+        <image name="iconexercice2" width="70" height="50"/>
         <image name="image_grande" width="250" height="437"/>
         <image name="rodape" width="414" height="46"/>
     </resources>

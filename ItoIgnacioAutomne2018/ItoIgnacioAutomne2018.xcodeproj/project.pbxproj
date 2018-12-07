@@ -16,6 +16,7 @@
 		9B7E3D1C21A4CFDA00F4541F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B7E3D1A21A4CFDA00F4541F /* LaunchScreen.storyboard */; };
 		9B7E3D2721A4CFDA00F4541F /* ItoIgnacioAutomne2018Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7E3D2621A4CFDA00F4541F /* ItoIgnacioAutomne2018Tests.swift */; };
 		9B7E3D3221A4CFDA00F4541F /* ItoIgnacioAutomne2018UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B7E3D3121A4CFDA00F4541F /* ItoIgnacioAutomne2018UITests.swift */; };
+		D0CEA16E21BB35B600BC7976 /* FenetreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CEA16D21BB35B600BC7976 /* FenetreTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,15 @@
 		9B7E3D2D21A4CFDA00F4541F /* ItoIgnacioAutomne2018UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ItoIgnacioAutomne2018UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B7E3D3121A4CFDA00F4541F /* ItoIgnacioAutomne2018UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItoIgnacioAutomne2018UITests.swift; sourceTree = "<group>"; };
 		9B7E3D3321A4CFDA00F4541F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0CEA16D21BB35B600BC7976 /* FenetreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FenetreTableViewController.swift; sourceTree = "<group>"; };
+		D0CEA17121BB38F300BC7976 /* SFSportsNightAlternate.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightAlternate.ttf; sourceTree = "<group>"; };
+		D0CEA17221BB38F300BC7976 /* SFSportsNightNSAlternate.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightNSAlternate.ttf; sourceTree = "<group>"; };
+		D0CEA17321BB38F400BC7976 /* SFSportsNightNS.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightNS.ttf; sourceTree = "<group>"; };
+		D0CEA17421BB38F400BC7976 /* SFSportsNightUpright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightUpright.ttf; sourceTree = "<group>"; };
+		D0CEA17521BB38F400BC7976 /* SFSportsNightNSAltUpright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightNSAltUpright.ttf; sourceTree = "<group>"; };
+		D0CEA17621BB38F500BC7976 /* SFSportsNightNSUpright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightNSUpright.ttf; sourceTree = "<group>"; };
+		D0CEA17721BB38F500BC7976 /* SFSportsNightAltUpright.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNightAltUpright.ttf; sourceTree = "<group>"; };
+		D0CEA17821BB38F500BC7976 /* SFSportsNight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SFSportsNight.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +111,11 @@
 		9B7E3D1021A4CFD000F4541F /* ItoIgnacioAutomne2018 */ = {
 			isa = PBXGroup;
 			children = (
+				D0CEA17921BB391A00BC7976 /* Font */,
 				9B7E3D1121A4CFD000F4541F /* AppDelegate.swift */,
 				9B7E3D1321A4CFD000F4541F /* ViewController.swift */,
 				9B7E3D1521A4CFD000F4541F /* Main.storyboard */,
+				D0CEA16D21BB35B600BC7976 /* FenetreTableViewController.swift */,
 				9B627FB721AE2B2F0043EB63 /* PageHautBasViewController.swift */,
 				9B627FB521AE22260043EB63 /* HomeViewController.swift */,
 				9B7E3D1821A4CFDA00F4541F /* Assets.xcassets */,
@@ -129,6 +141,21 @@
 				9B7E3D3321A4CFDA00F4541F /* Info.plist */,
 			);
 			path = ItoIgnacioAutomne2018UITests;
+			sourceTree = "<group>";
+		};
+		D0CEA17921BB391A00BC7976 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				D0CEA17821BB38F500BC7976 /* SFSportsNight.ttf */,
+				D0CEA17121BB38F300BC7976 /* SFSportsNightAlternate.ttf */,
+				D0CEA17721BB38F500BC7976 /* SFSportsNightAltUpright.ttf */,
+				D0CEA17321BB38F400BC7976 /* SFSportsNightNS.ttf */,
+				D0CEA17221BB38F300BC7976 /* SFSportsNightNSAlternate.ttf */,
+				D0CEA17521BB38F400BC7976 /* SFSportsNightNSAltUpright.ttf */,
+				D0CEA17621BB38F500BC7976 /* SFSportsNightNSUpright.ttf */,
+				D0CEA17421BB38F400BC7976 /* SFSportsNightUpright.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +293,7 @@
 				9B7E3D1221A4CFD000F4541F /* AppDelegate.swift in Sources */,
 				9B627FB821AE2B2F0043EB63 /* PageHautBasViewController.swift in Sources */,
 				9B627FB621AE22260043EB63 /* HomeViewController.swift in Sources */,
+				D0CEA16E21BB35B600BC7976 /* FenetreTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

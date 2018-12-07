@@ -82,6 +82,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uJj-Ov-kKR">
                                 <rect key="frame" x="95" y="657" width="224" height="93"/>
                                 <state key="normal" image="BOUTOMVALIDATION"/>
+                                <connections>
+                                    <segue destination="sQd-r3-k6Q" kind="show" id="aRh-Cs-MiU"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kbx-ny-1Sm">
                                 <rect key="frame" x="219" y="358.5" width="150" height="40"/>
@@ -208,63 +211,90 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgS-1t-0FY">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VgS-1t-0FY">
                                 <rect key="frame" x="95" y="655" width="224" height="95"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="button_salvegarder"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background_bloco_exercicios" translatesAutoresizingMaskIntoConstraints="NO" id="TKN-XB-duD">
-                                <rect key="frame" x="47" y="136" width="320" height="439"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="81" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="iYy-eg-TXr">
+                                <rect key="frame" x="47" y="140" width="319" height="435"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_exercice" translatesAutoresizingMaskIntoConstraints="NO" id="LLS-cF-nPn">
-                                <rect key="frame" x="49" y="140" width="97" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_exercice" translatesAutoresizingMaskIntoConstraints="NO" id="Hpw-aN-b4g">
-                                <rect key="frame" x="49" y="227" width="97" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_exercice" translatesAutoresizingMaskIntoConstraints="NO" id="vzM-r0-LwZ">
-                                <rect key="frame" x="49" y="314" width="97" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_exercice" translatesAutoresizingMaskIntoConstraints="NO" id="h0X-gH-knj">
-                                <rect key="frame" x="49" y="401" width="97" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_exercice" translatesAutoresizingMaskIntoConstraints="NO" id="YyB-WW-BMZ">
-                                <rect key="frame" x="49" y="488" width="97" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_description_exercices" translatesAutoresizingMaskIntoConstraints="NO" id="cWQ-Rg-do7">
-                                <rect key="frame" x="145" y="140" width="220" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_description_exercices" translatesAutoresizingMaskIntoConstraints="NO" id="G0n-uS-is4">
-                                <rect key="frame" x="145" y="227" width="220" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_description_exercices" translatesAutoresizingMaskIntoConstraints="NO" id="PI5-PV-Tj3">
-                                <rect key="frame" x="145" y="314" width="220" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_description_exercices" translatesAutoresizingMaskIntoConstraints="NO" id="SJW-a9-eHE">
-                                <rect key="frame" x="145" y="401" width="220" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bloque_description_exercices" translatesAutoresizingMaskIntoConstraints="NO" id="h2o-Xr-eQ1">
-                                <rect key="frame" x="145" y="488" width="220" height="85"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="iconexercice1" translatesAutoresizingMaskIntoConstraints="NO" id="yWp-0s-4Ye">
-                                <rect key="frame" x="57" y="154" width="80" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Zv5-Yz-Aya">
+                                        <rect key="frame" x="0.0" y="28" width="319" height="81"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Zv5-Yz-Aya" id="BiD-2p-giz">
+                                            <rect key="frame" x="0.0" y="0.0" width="319" height="80.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V7K-l0-JZl">
+                                                    <rect key="frame" x="0.0" y="0.0" width="94" height="81"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="uak-iS-XQF">
+                                        <rect key="frame" x="0.0" y="109" width="319" height="81"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="uak-iS-XQF" id="IWd-Mu-qB3">
+                                            <rect key="frame" x="0.0" y="0.0" width="319" height="80.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zZG-Jc-HAd">
+                                                    <rect key="frame" x="0.0" y="0.0" width="94" height="81"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="3QE-oG-cGa">
+                                        <rect key="frame" x="0.0" y="190" width="319" height="81"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="3QE-oG-cGa" id="NT1-J8-yXc">
+                                            <rect key="frame" x="0.0" y="0.0" width="319" height="80.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gMZ-nR-yel">
+                                                    <rect key="frame" x="0.0" y="-1" width="94" height="81"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="zkM-Tj-VAT">
+                                        <rect key="frame" x="0.0" y="271" width="319" height="81"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zkM-Tj-VAT" id="RKp-dm-dBk">
+                                            <rect key="frame" x="0.0" y="0.0" width="319" height="80.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="q56-D8-FJi">
+                                                    <rect key="frame" x="0.0" y="0.0" width="94" height="81"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="O4x-LN-Qgh">
+                                        <rect key="frame" x="0.0" y="352" width="319" height="81"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="O4x-LN-Qgh" id="bRU-E5-FoP">
+                                            <rect key="frame" x="0.0" y="0.0" width="319" height="80.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PEc-nI-54p">
+                                                    <rect key="frame" x="0.0" y="-1" width="94" height="81"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="f10-g3-OrY" firstAttribute="bottom" secondItem="VgS-1t-0FY" secondAttribute="bottom" constant="112" id="4O4-TU-Iz1"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="f10-g3-OrY"/>
                     </view>
                 </viewController>
@@ -272,20 +302,79 @@
             </objects>
             <point key="canvasLocation" x="2075.36231884058" y="16.741071428571427"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="oBb-jj-bTO">
+            <objects>
+                <viewController id="XR3-Dl-qKg" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fWp-Xx-Xan">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eIf-1Y-Bh8">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="image_Fenetre_5" translatesAutoresizingMaskIntoConstraints="NO" id="i3k-H8-mVI">
+                                        <rect key="frame" x="48" y="140" width="319" height="435"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="p16-Wy-HW7">
+                                        <rect key="frame" x="112" y="593" width="191" height="50"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment content="INFORMATIONS">
+                                                <attributes>
+                                                    <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                    <font key="NSFont" size="26" name="SFSportsNight"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oJI-fO-g5Y">
+                                        <rect key="frame" x="88" y="651" width="240" height="122"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <attributedString key="attributedText">
+                                            <fragment>
+                                                <string key="content">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut </string>
+                                                <attributes>
+                                                    <font key="NSFont" size="14" name="OpenSans-Regular"/>
+                                                    <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                </attributes>
+                                            </fragment>
+                                        </attributedString>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90980392156862744" green="0.38823529411764707" blue="0.1764705882352941" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="eIf-1Y-Bh8" secondAttribute="trailing" id="IZA-sF-uq6"/>
+                            <constraint firstItem="eIf-1Y-Bh8" firstAttribute="leading" secondItem="fWp-Xx-Xan" secondAttribute="leading" id="JH1-UU-Soe"/>
+                            <constraint firstItem="eIf-1Y-Bh8" firstAttribute="top" secondItem="fWp-Xx-Xan" secondAttribute="top" id="JHk-nN-QqY"/>
+                            <constraint firstAttribute="bottom" secondItem="eIf-1Y-Bh8" secondAttribute="bottom" id="Va0-R6-cwN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="MD6-V6-ofT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XXF-62-u6t" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2760.8695652173915" y="16.741071428571427"/>
+        </scene>
     </scenes>
     <resources>
         <image name="BOUTOMVALIDATION" width="225" height="93"/>
         <image name="EXERCICESBAS" width="150" height="13"/>
         <image name="EXERCICESHAUT" width="150" height="12"/>
-        <image name="background_bloco_exercicios" width="320" height="439"/>
         <image name="background_fenetre" width="76" height="151"/>
-        <image name="bloque_description_exercices" width="220" height="85"/>
-        <image name="bloque_exercice" width="97" height="85"/>
         <image name="boutom-bas" width="150" height="138"/>
         <image name="boutom-haut" width="150" height="138"/>
         <image name="button_salvegarder" width="224" height="95"/>
         <image name="femme-boutom" width="150" height="138"/>
         <image name="homme-boutom" width="150" height="138"/>
-        <image name="iconexercice1" width="80" height="56"/>
+        <image name="image_Fenetre_5" width="240" height="420"/>
     </resources>
 </document>
